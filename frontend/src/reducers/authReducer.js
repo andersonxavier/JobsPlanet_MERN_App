@@ -3,7 +3,8 @@ import {
     USER_LOADING
 } from "../actions/types";
 
-const isEmpty = require("is-empty");
+// const isEmpty = require("./index.js");
+const isEmpty = require("./is-empty");
 
 const initialState = {
     isAuthenticated: false,
